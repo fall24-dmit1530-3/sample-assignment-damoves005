@@ -1,0 +1,52 @@
+/* 
+    COLOUR PALETTE
+
+    cyan-950:  #083344
+    cyan-900:  #164e63
+    cyan-800:  #155e75
+    body-copy: #f7ffff
+*/
+
+body {
+  background-color: #083344;
+  color: #f7ffff;
+  font-family: "Noto Serif", serif;
+  box-sizing: border-box;
+}
+* {
+  box-sizing: inherit;
+}
+h1 {
+  font-size: 36px;
+  font-weight: 400;
+  text-align: center;
+  width: 100%;
+}
+p {
+  background-color: #155e75;
+  border: 1px solid #083344;
+  border-radius: 4px;
+  padding: 16px;
+}
+
+.container {
+  background-color: #164e63;
+  border-radius: 4px;
+  padding: 32px 16px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+p {
+  /* border is 6 
+    padding is 16 * 6 
+    gap is 16 * 2
+    */
+
+  width: calc((100% - (16px * 2)) / 3);
+
+  /* old box model */
+  /* width: calc((100% - (1px * 6) - (16px * 6) - (16px * 2)) / 3); */
+}
