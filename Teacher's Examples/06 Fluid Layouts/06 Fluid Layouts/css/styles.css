@@ -1,0 +1,54 @@
+:root {
+  --dark: #291e1c;
+  --light: #c4d3d6;
+  --accent: #ebac4e;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #291e1c;
+  color: var(--light);
+}
+
+.flex {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.flex > :first-child {
+  max-width: 40%;
+}
+
+.number {
+  list-style-type: decimal;
+}
+
+.number span {
+  font-weight: bold;
+}
+
+.flex > :last-child {
+  max-width: 60%;
+  padding-bottom: 20px;
+}
+
+.container {
+  max-width: 1080px;
+  min-width: 400px;
+  margin: 0 auto;
+}
+
+h1,
+h2 {
+  color: var(--accent);
+  font-weight: 300;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: left;
+}

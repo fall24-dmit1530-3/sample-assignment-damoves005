@@ -1,0 +1,50 @@
+body {
+  background-color: #fafafa;
+  color: #13293d;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.absolute {
+  border: 4px double green;
+  margin: 16px;
+  padding: 16px;
+}
+
+.absolute h2 {
+  font-size: 42px;
+}
+
+.absolute p {
+  font-size: 16px;
+  max-width: 400px;
+}
+
+.absolute * {
+  margin-bottom: 20px;
+}
+
+.relative {
+  border: 0.25rem double green;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.relative h2 {
+  font-size: calc(42 / 16 * 1rem);
+}
+
+.relative p {
+  font-size: 1rem;
+  max-width: 400px;
+}
+
+.relative * {
+  margin-bottom: calc(20 / 16 * 1rem);
+}
