@@ -63,7 +63,6 @@ a {
 }
 
 /* Make images easier to work with */
-/* I am commenting this out so that students have to write it themselves and see the effect of it. */
 img,
 picture {
     max-width: 100%;
